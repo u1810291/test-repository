@@ -182,3 +182,174 @@ body {
   height: inherit;
   justify-content: center;
 }
+.my {
+  display: flex;
+  justify-content: center;
+  color: white;
+  height: 700px;
+}
+.inha {
+  display: block;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+.image-wrapper{
+  width:700px;
+  height:500px;
+  overflow: hidden;
+  position: relative;
+  border: solid 3px transparent;
+  border: 2px solid #5800f0;
+  box-shadow: 0 1px 2px 2px #9658fe;
+}
+.image-wrapper > p {
+  position: absolute;
+  bottom: -30px;
+  font-size:1.2em;
+  background-color: rgba(0, 0, 0, 0.6) ;
+  padding: 30px;
+}
+.EDUCATION {
+  margin-bottom: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.EDUCATION {
+  display: grid;
+	place-content: center;
+	position: relative;
+	border: solid 1.5em rgba(#000, .03);
+	padding: 0 1em;
+	height: 50vmin;
+	max-width: 13em; max-height: 7em;
+	box-shadow: 2px 2px 5px rgba(#000, .2), 
+							2px 2px 17px rgba(#000, .35), 
+							2px 2px 25px rgba(#000, .5);
+	background: url('/images/inha.jpg') 50%/ cover 
+								border-box /* background-origin */
+								padding-box /* background-clip */;
+	color: #fff;
+	font: 600 1em/ 1.25 segoe script, comic sans ms, cursive;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+}
+.EDUCATION::before{
+  position: absolute;
+		z-index: -1;
+		top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
+		border: inherit;
+		border-color: transparent;
+		background: inherit;
+		background-clip: border-box;
+		-webkit-filter: blur(9px);
+						filter: blur(9px);
+		-webkit-clip-path: inset(0);
+						clip-path: inset(0);
+		content: ''
+}
+.JOB {
+  display: grid;
+	place-content: center;
+	position: relative;
+	border: solid 1.5em rgba(#000, .03);
+	padding: 0 1em;
+	height: 50vmin;
+	max-width: 13em; max-height: 7em;
+	box-shadow: 2px 2px 5px rgba(#000, .2), 
+							2px 2px 17px rgba(#000, .35), 
+							2px 2px 25px rgba(#000, .5);
+	background: url('/images/inha.jpg') 50%/ cover 
+								border-box /* background-origin */
+								padding-box /* background-clip */;
+	color: #fff;
+	font: 600 1em/ 1.25 segoe script, comic sans ms, cursive;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+}
+.JOB ::before {
+  position: absolute;
+  z-index: -1;
+  top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
+  border: inherit;
+  border-color: transparent;
+  background: inherit;
+  background-clip: border-box;
+  -webkit-filter: blur(9px);
+          filter: blur(9px);
+  -webkit-clip-path: inset(0);
+          clip-path: inset(0);
+  content: ''
+}
+.WORK {
+  display: grid;
+	place-content: center;
+	position: relative;
+	border: solid 1.5em rgba(#000, .03);
+	padding: 0 1em;
+	height: 50vmin;
+	max-width: 13em; max-height: 7em;
+	box-shadow: 2px 2px 5px rgba(#000, .2), 
+							2px 2px 17px rgba(#000, .35), 
+							2px 2px 25px rgba(#000, .5);
+	background: url('/images/inha.jpg') 50%/ cover 
+								border-box /* background-origin */
+								padding-box /* background-clip */;
+	color: #fff;
+	font: 600 3em/ 1.25 segoe script, comic sans ms, cursive;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+}
+.WORK {
+  position: absolute;
+  z-index: -1;
+  top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
+  border: inherit;
+  border-color: transparent;
+  background: inherit;
+  background-clip: border-box;
+  -webkit-filter: blur(9px);
+          filter: blur(9px);
+  -webkit-clip-path: inset(0);
+          clip-path: inset(0);
+  content: ''
+}
+.TRAVEL {
+  display: grid;
+	place-content: center;
+	position: relative;
+	border: solid 1.5em rgba(#000, .03);
+	padding: 0 1em;
+	height: 50vmin;
+	max-width: 13em; max-height: 7em;
+	box-shadow: 2px 2px 5px rgba(#000, .2), 
+							2px 2px 17px rgba(#000, .35), 
+							2px 2px 25px rgba(#000, .5);
+	background: url('/images/inha.jpg') 50%/ cover 
+								border-box /* background-origin */
+								padding-box /* background-clip */;
+	color: #fff;
+	font: 600 3em/ 1.25 segoe script, comic sans ms, cursive;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+}
+.TRAVEL {
+  position: absolute;
+  z-index: -1;
+  top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
+  border: inherit;
+  border-color: transparent;
+  background: inherit;
+  background-clip: border-box;
+  -webkit-filter: blur(9px);
+          filter: blur(9px);
+  -webkit-clip-path: inset(0);
+          clip-path: inset(0);
+  content: ''
+}
