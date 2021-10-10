@@ -10,7 +10,7 @@ body {
   position: relative;
   background-image: url('../images/789.jpg');
   background-position: center;
-  background-size: 100%;
+  background-size: 120%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 0;
@@ -215,20 +215,18 @@ body {
   background-color: rgba(0, 0, 0, 0.6) ;
   padding: 30px;
 }
-.EDUCATION {
-  margin-bottom: 40px;
-  color: white;
-  font-size: 20px;
-}
 
 .EDUCATION {
+
+  height: 100px;
+  color: white;
+  font-size: 20px;
   display: grid;
 	place-content: center;
 	position: relative;
 	border: solid 1.5em rgba(#000, .03);
-	padding: 0 1em;
-	height: 50vmin;
-	max-width: 13em; max-height: 7em;
+	
+	
 	box-shadow: 2px 2px 5px rgba(#000, .2), 
 							2px 2px 17px rgba(#000, .35), 
 							2px 2px 25px rgba(#000, .5);
@@ -255,13 +253,16 @@ body {
 		content: ''
 }
 .JOB {
+
+  height: 100px;
+  color: white;
+  font-size: 20px;
   display: grid;
 	place-content: center;
 	position: relative;
 	border: solid 1.5em rgba(#000, .03);
-	padding: 0 1em;
-	height: 50vmin;
-	max-width: 13em; max-height: 7em;
+	
+	
 	box-shadow: 2px 2px 5px rgba(#000, .2), 
 							2px 2px 17px rgba(#000, .35), 
 							2px 2px 25px rgba(#000, .5);
@@ -273,28 +274,31 @@ body {
 	text-align: center;
 	text-shadow: 1px 1px #000;
 }
-.JOB ::before {
+.JOB::before{
   position: absolute;
-  z-index: -1;
-  top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
-  border: inherit;
-  border-color: transparent;
-  background: inherit;
-  background-clip: border-box;
-  -webkit-filter: blur(9px);
-          filter: blur(9px);
-  -webkit-clip-path: inset(0);
-          clip-path: inset(0);
-  content: ''
+		z-index: -1;
+		top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
+		border: inherit;
+		border-color: transparent;
+		background: inherit;
+		background-clip: border-box;
+		-webkit-filter: blur(9px);
+						filter: blur(9px);
+		-webkit-clip-path: inset(0);
+						clip-path: inset(0);
+		content: ''
 }
 .WORK {
+
+  height: 100px;
+  color: white;
+  font-size: 20px;
   display: grid;
 	place-content: center;
 	position: relative;
 	border: solid 1.5em rgba(#000, .03);
-	padding: 0 1em;
-	height: 50vmin;
-	max-width: 13em; max-height: 7em;
+	
+	
 	box-shadow: 2px 2px 5px rgba(#000, .2), 
 							2px 2px 17px rgba(#000, .35), 
 							2px 2px 25px rgba(#000, .5);
@@ -302,32 +306,34 @@ body {
 								border-box /* background-origin */
 								padding-box /* background-clip */;
 	color: #fff;
-	font: 600 3em/ 1.25 segoe script, comic sans ms, cursive;
+	font: 600 1em/ 1.25 segoe script, comic sans ms, cursive;
 	text-align: center;
 	text-shadow: 1px 1px #000;
 }
-.WORK {
+.WORK::before{
   position: absolute;
-  z-index: -1;
-  top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
-  border: inherit;
-  border-color: transparent;
-  background: inherit;
-  background-clip: border-box;
-  -webkit-filter: blur(9px);
-          filter: blur(9px);
-  -webkit-clip-path: inset(0);
-          clip-path: inset(0);
-  content: ''
+		z-index: -1;
+		top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
+		border: inherit;
+		border-color: transparent;
+		background: inherit;
+		background-clip: border-box;
+		-webkit-filter: blur(9px);
+						filter: blur(9px);
+		-webkit-clip-path: inset(0);
+						clip-path: inset(0);
+		content: ''
 }
 .TRAVEL {
+
+  height: 100px;
+  color: white;
+  font-size: 20px;
   display: grid;
 	place-content: center;
 	position: relative;
 	border: solid 1.5em rgba(#000, .03);
-	padding: 0 1em;
-	height: 50vmin;
-	max-width: 13em; max-height: 7em;
+	
 	box-shadow: 2px 2px 5px rgba(#000, .2), 
 							2px 2px 17px rgba(#000, .35), 
 							2px 2px 25px rgba(#000, .5);
@@ -335,21 +341,28 @@ body {
 								border-box /* background-origin */
 								padding-box /* background-clip */;
 	color: #fff;
-	font: 600 3em/ 1.25 segoe script, comic sans ms, cursive;
+	font: 600 1em/ 1.25 segoe script, comic sans ms, cursive;
 	text-align: center;
 	text-shadow: 1px 1px #000;
 }
-.TRAVEL {
+.TRAVEL::before{
   position: absolute;
-  z-index: -1;
-  top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
-  border: inherit;
-  border-color: transparent;
-  background: inherit;
-  background-clip: border-box;
-  -webkit-filter: blur(9px);
-          filter: blur(9px);
-  -webkit-clip-path: inset(0);
-          clip-path: inset(0);
-  content: ''
+		z-index: -1;
+		top: -1.5em; right: -1.5em; bottom: -1.5em; left: -1.5em;
+		border: inherit;
+		border-color: transparent;
+		background: inherit;
+		background-clip: border-box;
+		-webkit-filter: blur(9px);
+						filter: blur(9px);
+		-webkit-clip-path: inset(0);
+						clip-path: inset(0);
+		content: ''
+}
+.parent{
+  display: grid;
+  grid-gap:100px;
+  grid-template-columns: repeat(4,1fr);
+  padding: 50px;
+  overflow: hidden;
 }
