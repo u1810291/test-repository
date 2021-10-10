@@ -230,7 +230,7 @@ body {
 	box-shadow: 2px 2px 5px rgba(#000, .2), 
 							2px 2px 17px rgba(#000, .35), 
 							2px 2px 25px rgba(#000, .5);
-	background: url('/images/inha.jpg') 50%/ cover 
+	background: url('/images/seven.jpg') 50%/ cover 
 								border-box /* background-origin */
 								padding-box /* background-clip */;
 	color: #fff;
@@ -266,7 +266,7 @@ body {
 	box-shadow: 2px 2px 5px rgba(#000, .2), 
 							2px 2px 17px rgba(#000, .35), 
 							2px 2px 25px rgba(#000, .5);
-	background: url('/images/inha.jpg') 50%/ cover 
+	background: url('/images/four.jpg') 50%/ cover 
 								border-box /* background-origin */
 								padding-box /* background-clip */;
 	color: #fff;
@@ -302,7 +302,7 @@ body {
 	box-shadow: 2px 2px 5px rgba(#000, .2), 
 							2px 2px 17px rgba(#000, .35), 
 							2px 2px 25px rgba(#000, .5);
-	background: url('/images/inha.jpg') 50%/ cover 
+	background: url('/images/one.jpg') 50%/ cover 
 								border-box /* background-origin */
 								padding-box /* background-clip */;
 	color: #fff;
@@ -337,7 +337,7 @@ body {
 	box-shadow: 2px 2px 5px rgba(#000, .2), 
 							2px 2px 17px rgba(#000, .35), 
 							2px 2px 25px rgba(#000, .5);
-	background: url('/images/inha.jpg') 50%/ cover 
+	background: url('/images/three.jpg') 50%/ cover 
 								border-box /* background-origin */
 								padding-box /* background-clip */;
 	color: #fff;
@@ -365,4 +365,7 @@ body {
   grid-template-columns: repeat(4,1fr);
   padding: 50px;
   overflow: hidden;
+}
+.parent :hover {
+cursor: pointer;
 }
